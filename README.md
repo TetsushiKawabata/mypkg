@@ -37,6 +37,20 @@ $ ros2 run mypkg listener
 * まずtalkerは0から1ずつ数字をカウントする.
 * listenerがそれを読み込んで出力する.
 
+# launchファイル
+launchファイルを使うことで,複数のノードを同時に立ち上げることができる.  
+
+### 入力と実行結果
+```
+$ ros2 launch mypkg talk_listen.launch.py
+[listener-2] [INFO] [1672143521.547788850] [listener]: Listen: 0
+[listener-2] [INFO] [1672143522.021609197] [listener]: Listen: 1
+[listener-2] [INFO] [1672143522.521629912] [listener]: Listen: 2
+[listener-2] [INFO] [1672143523.021668093] [listener]: Listen: 3
+[listener-2] [INFO] [1672143523.521733415] [listener]: Listen: 4
+[listener-2] [INFO] [1672143524.021810561] [listener]: Listen: 5
+```
+
 ## 必要なソフトウェア
 * ROS2
 
