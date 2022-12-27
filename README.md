@@ -9,7 +9,7 @@ $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
 
 # 入力と実行結果
-端末を2つ用意して以下のように入力する.  
+端末を2つ用意して以下のように入力する.
 * 端末1
 ```
 $ ros2 run mypkg talker
@@ -20,7 +20,7 @@ $ ros2 run mypkg talker
 $ ros2 run mypkg listener
 ```
   
-実行結果は以下のようになる.  
+実行結果は以下のようになる.
 * 端末2
 ```
 [INFO] [1672139699.627192098] [listener]: Listen: 0
