@@ -9,6 +9,9 @@ $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
 
 # talkerとlistener
+* まずtalkerが0から1ずつ数字をカウントする.
+* listenerがそれを受け取って出力する.
+
 ### 入力と実行結果
 端末を2つ用意して以下のように入力する.
 * 端末1
@@ -33,12 +36,8 @@ $ ros2 run mypkg listener
 (以下略)
 ```
 
-### talkerとlistenerについて
-* まずtalkerは0から1ずつ数字をカウントする.
-* listenerがそれを読み込んで出力する.
-
 # launchファイル
-launchファイルを使うことで,複数のノードを同時に立ち上げることができる.  
+* launchファイルを使うことで,複数のノードを同時に立ち上げることができる.  
 
 ### 入力と実行結果
 ```
