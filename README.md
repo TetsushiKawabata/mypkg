@@ -8,7 +8,8 @@
 $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
 
-# 入力と実行結果
+# talkerとlistener
+### 入力と実行結果
 端末を2つ用意して以下のように入力する.
 * 端末1
 ```
