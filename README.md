@@ -1,6 +1,7 @@
 # mypkg
 ![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
-* このリポジトリはROS2のパッケージです.ROS2をインストールしていない方は先にインストールをお願いします.  
+* このリポジトリはROS2のパッケージです.
+* ROS2をインストールしていない方は先にインストールをお願いします.
 
 # 導入
 ```
