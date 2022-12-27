@@ -1,6 +1,6 @@
 # mypkg
 ![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
-このリポジトリはROS2のパッケージです.ROS2をインストールしていない方は先にインストールをお願いします.  
+* このリポジトリはROS2のパッケージです.ROS2をインストールしていない方は先にインストールをお願いします.  
 
 # 導入
 ```
@@ -18,7 +18,7 @@ $ ros2 run mypkg talker
 ```
 $ ros2 run mypkg listener
 ```
-
+  
 実行結果は以下のようになる.  
 * 端末2
 ```
@@ -30,6 +30,10 @@ $ ros2 run mypkg listener
 [INFO] [1672139702.108339639] [listener]: Listen: 5
 (以下略)
 ```
+
+### talkerとlistenerについて
+* まずtalkerは0から1ずつ数字をカウントする.
+* listenerがそれを読み込んで出力する.
 
 ## 必要なソフトウェア
 * ROS2
