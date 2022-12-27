@@ -1,6 +1,6 @@
 # mypkg
-![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)
-このリポジトリはROS2のパッケージです.ROS2をインストールしていない方は先にインストールをお願いします.
+![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
+このリポジトリはROS2のパッケージです.ROS2をインストールしていない方は先にインストールをお願いします.  
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
