@@ -2,19 +2,17 @@
 ![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
 * このリポジトリはROS2のパッケージです.
 * ROS2をインストールしていない方は先にインストールをお願いします.
-
-# 導入
+* インストールを終えた方はこちらを入力してください.
 ```
 $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
 
 # talkerとlistener
-* talkerがInt16型のメッセージを送信する.
-* countupというトピックを通じて, talkerからlistenerへとそのメッセージを流す.
-* listenerがメッセージを受信して出力する.
+* talkerはcountupというトピックを通じて, Int16型のメッセージを送信します.
+* listenerはcountupからそのメッセージを受信して出力します.
 
 ### 入力と実行結果
-端末を2つ用意して以下のように入力する.
+端末を2つ用意して以下のように入力してください.
 * 端末1
 ```
 $ ros2 run mypkg talker
@@ -25,7 +23,7 @@ $ ros2 run mypkg talker
 $ ros2 run mypkg listener
 ```
   
-実行結果は以下のようになる.
+実行結果は以下のようになります.
 * 端末2
 ```
 [INFO] [1672139699.627192098] [listener]: Listen: 0
@@ -38,7 +36,7 @@ $ ros2 run mypkg listener
 ```
 
 # launchファイル
-* launchファイルを使うことで, 複数のノードを同時に立ち上げることができる.  
+* launchファイルを使うことで, 複数のノードを同時に立ち上げることができます.  
 
 ### 入力と実行結果
 ```
