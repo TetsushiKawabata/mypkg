@@ -9,8 +9,8 @@ $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
 
 # talkerとlistener
-* まずtalkerが0から1ずつ数字をカウントする.
-* listenerがそれを受け取って出力する.
+* まずtalkerがInt16型のメッセージを送信する.
+* listenerがそのメッセージを受け取って出力する.
 
 ### 入力と実行結果
 端末を2つ用意して以下のように入力する.
