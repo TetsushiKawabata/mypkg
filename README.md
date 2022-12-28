@@ -9,7 +9,7 @@ $ git clone https://github.com/TetsushiKawabata/mypkg.git
 
 # talkerとlistener
 * talkerはcountupというトピックを通じて, Int16型のメッセージを送信します.
-* listenerはcountupからそのメッセージを受信して出力します.
+* listenerはcountupからInt16型のメッセージを受信して出力します.
 
 ### 入力と実行結果
 端末を2つ用意して以下のように入力してください.
