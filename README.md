@@ -51,7 +51,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## 必要なソフトウェア
-* ROS2
+* ROS2 humble
 
 ## テスト環境
 * ubuntu22.04
