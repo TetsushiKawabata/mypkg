@@ -8,7 +8,7 @@ $ mkdir ros2_ws/src
 $ cd ros2_ws/src
 $ git clone https://github.com/TetsushiKawabata/mypkg.git
 ```
-* このリポジトリにはtalker.py, listener.py, そしてtalk_listen.launch.pyの3つのノードが含まれています.
+* このリポジトリにはtalker.py, listener.py, そしてtalk_listen.launch.pyという名前のノードが含まれています.
 
 # talkerとlistener
 * talkerはcountupというトピックを通じて, Int16型のメッセージを送信します.
