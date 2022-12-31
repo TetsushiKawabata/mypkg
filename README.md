@@ -2,12 +2,6 @@
 ![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
 * このリポジトリはROS2のパッケージです.
 * ROS2をインストールしていない方は先にインストールをお願いします.
-* インストールを終えた方はワークスペースを作成し, クローンを行ってください.
-```
-$ mkdir ros2_ws/src
-$ cd ros2_ws/src
-$ git clone https://github.com/TetsushiKawabata/mypkg.git
-```
 * このリポジトリにはtalker.py, listener.py, そしてtalk_listen.launch.pyという名前のノードが含まれています.
 
 # talkerとlistener
