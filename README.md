@@ -2,7 +2,10 @@
 ![test](https://github.com/TetsushiKawabata/mypkg/actions/workflows/test.yml/badge.svg)  
 * このリポジトリはROS2のパッケージです.
 * ROS2をインストールしていない方は先にインストールをお願いします.
-* このリポジトリにはtalker.py, listener.py, そしてtalk_listen.launch.pyという名前のノードが含まれています.
+* インストールを終えた方はワークスペースにクローンを行ってください.
+```
+$ git clone https://github.com/TetsushiKawabata/mypkg.git
+```
 
 # talkerとlistener
 * talkerはcountupというトピックを通じて, Int16型のメッセージを送信します.
